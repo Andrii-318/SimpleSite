@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="style/style.css" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet" />
+    <title>Simple Site</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="container">
+          <div class="header-nav-box">
+            <ul class="header-nav">
+              <li class="nav-list">
+                <a
+                  class="nav-item active"
+                  href=""
+                  >Homepage</a
+                >
+                <a
+                  class="nav-item"
+                  href=""
+                  >About author</a
+                >
+                <a
+                  class="nav-item"
+                  href=""
+                  >Works</a
+                >
+                <a
+                  class="nav-item"
+                  href=""
+                  >Process</a
+                >
+                <a
+                  class="nav-item"
+                  href=""
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="header-box">
+            <h1>Design and layout</h1>
+            <p class="p-head">
+              Lorem Ipsum is fish text often used in print and web design. Lorem
+              Ipsum
+              <br />
+              has been the standard "fish" for Latin texts since the early 16th
+              century.
+            </p>
+            <button
+              type="submit"
+              class="btn">
+              WRITE ME
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="article-1">
+        <h2>About me</h2>
+        <p class="p-main">
+          About meLorem Ipsum is fish text often used in print and web design.
+          <br />
+          Lorem Ipsum has been the standard "fish" for Latin texts since the
+          early 16th century.
+        </p>
+      </div>
+      <div class="rectangle">
+        <ul class="ico-list">
+          <li class="main-ico">
+            <a
+              class="ico-link"
+              href="#">
+              <div class="ico-container">
+                <img
+                  src="pictures/project 1.jpg"
+                  alt="ico" />
+                <div class="ico-text">40+ <br />projects</div>
+              </div>
+            </a>
+          </li>
+          <li class="main-ico">
+            <a
+              class="ico-link"
+              href="#">
+              <div class="ico-container">
+                <img
+                  src="pictures/project2.jpg"
+                  alt="ico" />
+                <div class="ico-text">40+ <br />projects</div>
+              </div>
+            </a>
+          </li>
+          <li class="main-ico">
+            <a
+              class="ico-link"
+              href="#">
+              <div class="ico-container">
+                <img
+                  src="pictures/project3.jpg"
+                  alt="ico" />
+                <div class="ico-text">40+ <br />projects</div>
+              </div>
+            </a>
+          </li>
+          <li class="main-ico">
+            <a
+              class="ico-link"
+              href="#">
+              <div class="ico-container">
+                <img
+                  src="pictures/project4.jpg"
+                  alt="ico" />
+                <div class="ico-text">40+ <br />projects</div>
+              </div>
+            </a>
+          </li>
+          <li class="main-ico">
+            <a
+              class="ico-link"
+              href="#">
+              <div class="ico-container">
+                <img
+                  src="pictures/project5.jpg"
+                  alt="ico" />
+                <div class="ico-text">40+ <br />projects</div>
+              </div>
+            </a>
+          </li>
+          <li class="main-ico">
+            <a
+              class="ico-link"
+              href="#">
+              <div class="ico-container">
+                <img
+                  src="pictures/project6.jpg"
+                  alt="ico" />
+                <div class="ico-text">40+ <br />projects</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="article-2">
+        <h2>How do I work</h2>
+        <p class="p-main">
+          Lorem Ipsum is fish text often used in print and web design. Lorem
+          Ipsum <br />
+          has been the standard "fish" for Latin texts since the early 16th
+          century.
+        </p>
+        <div class="video">
+          <video
+            src="video/Bon Jovi - It's My Life.mp4"
+            autoplay
+            controls></video>
+        </div>
+        <footer>
+          <div class="footer-box">
+            <h3>John Smith</h3>
+            <p class="p-footer">(c) 2018. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 400 16px/20px "Roboto", sans-serif;
+  color: #727272;
+  background: #ffffff;
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+
+  margin: auto;
+}
+.header {
+  background: #eeeff1;
+  width: 100%;
+  height: 700px;
+}
+
+.container {
+  width: 1110px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.header-nav-box {
+  width: 1281px;
+  margin: 0 auto;
+}
+.header-nav {
+  width: 1110px;
+
+  margin: 79px 0 0 0;
+  padding: 0;
+}
+.nav-item {
+  text-decoration: none;
+  color: #000000;
+}
+.nav-item.active {
+  font-weight: 500;
+  color: #34547a;
+}
+.nav-list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 42px;
+}
+.nav-item:hover {
+  color: #34547a;
+  font-weight: 500;
+}
+h1 {
+  color: #000;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 100px 0 60px;
+}
+.header-box {
+  width: 1110px;
+  margin: 0 auto;
+}
+.p-head {
+  margin-bottom: 65px;
+}
+.btn {
+  background: #34547a;
+  width: 225px;
+  height: 65px;
+  color: #fff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.article-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.p-main {
+  width: 1110;
+  margin-bottom: 57px;
+}
+h2 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 100px 0 50px;
+}
+
+.rectangle {
+  width: 100%;
+  height: 250px;
+  background: #34547a;
+  display: flex;
+  justify-content: center;
+}
+.ico-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 1110px;
+}
+.main-ico {
+  padding: 70px 37px;
+}
+.ico-link {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.ico-container {
+  display: flex;
+  align-items: center;
+}
+
+.ico-container img {
+  margin-right: 10px;
+}
+
+.ico-text {
+  text-align: left;
+}
+.article-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 57px;
+}
+.video {
+  width: 1110px;
+  height: 600px;
+  margin-right: 33px;
+}
+video {
+  width: 1110px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 151px;
+  background: #34547a;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+.footer-box {
+  color: #fff;
+  width: 1100px;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+.p-footer {
+  font-size: 13px;
+  font-weight: 400;
+}
